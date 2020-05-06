@@ -1,0 +1,169 @@
+html{
+    background-image: url("imgs/fundo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: monospace;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.box{
+  background-color: white;
+  width: 1250px;
+  height: 3px;
+}
+  
+* {
+  box-sizing: border-box;  
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke;
+}
+
+.tabbed {
+  width: 1250px;
+  margin: -8px auto;
+}
+
+.tabbed > input {
+ display: none;
+}
+
+.tabbed label {
+  display: block;
+  float: left;
+  padding: 15px 20px;
+  font-size: 22px;
+  transition: background-color .4s;
+}
+
+.tabbed > label:hover,
+.tabbed > input:checked + label {
+  background: whitesmoke;
+  color:black;
+}
+
+.tabs {
+  clear: both;
+  position: relative;
+  border-top: 2px solid whitesmoke;
+}
+
+.tabs > div {
+  position: absolute;
+  opacity: 0;
+  transition: opacity .5s;
+  transform: translateY(6px);
+}
+
+#tab-nav-1:checked ~ .tabs > div:nth-child(1),
+#tab-nav-2:checked ~ .tabs > div:nth-child(2),
+#tab-nav-3:checked ~ .tabs > div:nth-child(3), 
+#tab-nav-4:checked ~ .tabs > div:nth-child(4),
+#tab-nav-5:checked ~ .tabs > div:nth-child(5),
+#tab-nav-6:checked ~ .tabs > div:nth-child(6) {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all .3s linear .1s;
+}
+
+.video{
+  margin: 0px 350px;
+}
+
+.img1{
+  margin-left: 920px;
+  margin-top: 63px;
+}
+
+.img2{
+  
+  margin-top: 63px;
+}
+.img1 ,.img2{
+  max-width:500px;
+  max-height:450px;
+  width: auto;
+  height: auto;
+}
+  
+.imgtext1{
+  height: 0px;
+  width: 700px;
+  float: right;
+  margin: -250px 60px;
+}
+
+.imgtext2{
+  height: 0px;
+  width: 700px;
+  float: left;
+  margin: -250px 60px;
+}
+
+.title{
+  text-align: center; 
+}
+
+.title2{
+  margin: 15px;
+  margin-left: 390px;
+  text-align: center;
+}
+
+.img3{
+  max-width:300px;
+  max-height:250px;
+  width: auto;
+  height: auto;
+}
+
+.imgtext3{
+  height: 0px;
+  width: 1030px;
+  float: right;
+  margin: -153px 60px;
+}
+
+.img4{
+  max-width:300px;
+  max-height:250px;
+  width: auto;
+  height: auto;
+  margin-left: 962px;
+}
+
+.imgtext4{
+  height: 0px;
+  width: 1030px;
+  float: left;
+  margin: -153px 60px;
+}
+
+.imgtext4{
+  height: 0px;
+  width: 1030px;
+  float: right;
+  margin: -153px 60px;
+}
+
+.imgtext5{
+  height: 0px;
+  width: 1030px;
+  float: right;
+  margin: 110px -88px;
+}
+
+.img5{
+  max-width:400px;
+  max-height:350px;
+  width: auto;
+  height: auto;
+  margin-left: 32px;
+}
+

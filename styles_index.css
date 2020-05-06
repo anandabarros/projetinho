@@ -1,0 +1,38 @@
+html {
+    background-image: url("imgs/nebula.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+}
+
+  body {
+    min-height: 160vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+  
+      background-color: rgb(171, 8, 192);
+      color:#e7e9f1;
+      background-size: 50px;
+      background-position: 20px 25%;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 59px;
+      font-size: 20px;
+      border: 1px solid  rgb(171, 8, 192);
+      text-align: center;
+      text-indent: 0px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  h1{
+    color: white;
+    position: absolute;
+      top: 40%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+  }
